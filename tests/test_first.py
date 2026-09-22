@@ -1,2 +1,2 @@
-def test_first():
-    assert 2+2==4
+def test_first(base_url):
+    assert base_url== "http://localhost:3000"
